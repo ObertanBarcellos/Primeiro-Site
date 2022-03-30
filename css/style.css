@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "lato";
+}
+
+html, body{
+    height: 100%;
+}
+
+@font-face {
+    src: url('assets/fonts/Lato-Thin.ttf');
+    font-family: "Lato";
+}
+
+.clear{
+    clear: both;
+}
+
+.center{
+    width: 1480px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.header{
+    min-width: 1480px;
+    width: 100%;
+    height: 90px;
+    background-color: #171e7e;
+}
+
+.header img{
+    width: 400px;
+    margin-top: 20px;
+}
+
+.container-banner{
+    min-width: 1480px;
+    width: 100%;
+    height: 557px;
+    background-image: url('https://tecmasters.com.br/wp-content/uploads/2020/10/Programando.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.container-banner > .center{
+    height: 100%;
+}
+
+.form{
+    padding: 10px;
+    width: 400px;
+    height: calc(100% + 50px);
+    background-color: rgb(159, 159, 159);
+    position: relative;
+    top: -25px;
+    border: 8px solid rgba(79, 79, 79, 0.35);
+    float: right;
+    background-clip: padding-box;
+}
+
+.form h2{
+    font-weight: normal;
+    color: rgb(79, 79, 79);
+    font-size: 22px;
+}
+
+.input-container{
+    margin-top: 20px;
+}
+
+.input-container span, .form p{
+    display: inline-block;
+    width: 100%;
+    color: rgb(95, 95, 95);
+    font-size: 17px;
+}
+
+.form p{
+    margin: 20px 0;
+}
+
+.input-container input[type=text]{
+    width: 370px;
+    height: 55px;
+    border: 1px solid rgb(95, 95, 95);
+    margin-top: 8px;
+}
+
+.form .input-submit-container{
+    text-align: center;
+}
+
+.form input[type=submit]{
+    margin-top: 60px;
+    width: 280px;
+    height: 56px;
+    font-size: 25px;
+    background-color: #171e7e;
+    color: rgb(200, 200, 200);
+    display: inline-block;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-bottom: 4px solid #151741;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    cursor: pointer;
+}   
+
+.form input[type=submit]:hover{
+    background-color: #141fb3;
+    color: white;
+    width: 282px;
+    height: 58px;
+    margin-top: 59px;
+}
+
+.container-list{
+    padding: 30px;
+    float: left;
+    width: 619px;
+    height: 270px;
+    background-color: rgba(33, 35, 67, 0.7);
+    margin-top: 120px;
+    border: 8px solid rgba(79, 79, 79, 0.3);
+    background-clip: padding-box;
+}
+
+.container-list ul{
+    list-style-position: inside;
+    color: white;
+}
+
+.container-list ul li{
+    margin-top: 30px;
+}
+
+.container-body {
+    padding: 40px;
+    background-color: rgb(216, 216, 216);
+    text-align: center;
+    min-width: 1480px;
+}
+
+.container-body p{
+    text-align: justify;
+    width: 698px;
+    display: inline-block;
+    margin: 15px 0;
+}
+
+.arrow{
+    position: relative;
+    top: 60px;
+    left: 50%;
+    margin-left: -20px;
+    width: 64px;
+    height: 64px;
+    background-image: url('../assets/arrow.png');
+    background-size: 100% 100%;
+}
+
+.section-1{
+    padding: 90px 0;
+    min-width: 1480px;
+}
+
+.section-1 h2{
+    text-align: center;
+    color: #190933;
+    font-weight: normal;
+    margin-bottom: 5%;
+}
+
+.container-section{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.container-single{
+    float: left;
+    width: 33.333%;
+    padding: 30px;
+}
+
+.container-single img{
+    width: 150px;
+    height: 150px;
+}
+
+.container-single p{
+    display: inline-block;
+    text-align: justify;
+    padding: 15px 35px;
+}
+
+.footer{
+    padding: 20px 0;
+    border-top: 5px solid rgb(216, 216, 216);
+    text-align: center;
+    color: rgb(192, 192, 192)
+}
+
+.footer p{
+    margin-top: 8px;
+}
+
+.footer:hover{
+    color: white;
+    background-color: rgb(79, 79, 79);
+}
