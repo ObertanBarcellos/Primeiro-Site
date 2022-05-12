@@ -87,6 +87,12 @@ html, body{
     height: 55px;
     border: 1px solid rgb(95, 95, 95);
     margin-top: 8px;
+    padding: 0px 10px 0px 10px;
+    font-size: larger;
+}
+
+.input-container input[type=text]:focus{
+    outline: 0;
 }
 
 .form .input-submit-container{
